@@ -1,0 +1,1 @@
+export const bats = ['Caren', 'Billy', 'Nadine', 'Creg', 'Kate', 'Michael', 'Natalie']

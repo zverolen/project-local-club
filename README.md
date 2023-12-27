@@ -1,8 +1,13 @@
-# React + Vite
+# Website of a Vampires Local Club 
+*Student Project on Codecademy (Local Club Website)*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a solution to a task at the Codecademy's Courses: to create a responsive website for a local club of your choice. 
 
-Currently, two official plugins are available:
+## Сharacteristics
+1. Designed in the browser.
+2. Tested against color contrast.
+3. Screen readers-friendly.
+4. Features responsive images using Cloudinary techniques.
+5. Imagery created in Photoshop, Inkscape and Figma using photos from photo libraries (credits included for Unsplash).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+MIT License
