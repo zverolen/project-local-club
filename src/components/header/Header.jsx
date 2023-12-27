@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header>
+    <header style={{border: '1px solid black'}}>
       <div>
         <img width="55" src="./images/night-flight-logo.svg" alt="" />
         <h1>Night Flight Club</h1>

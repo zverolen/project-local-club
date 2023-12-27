@@ -1,0 +1,7 @@
+:root {
+  --bigger-line-height: 1.5;
+  --minimal-dimention: calc(44 / 16 * 1rem);
+  --optimal-reading-width: 80ch;
+  --bigger-letter-spacing: 0.012em;
+  --bigger-word-gap: 0.016em;
+}
