@@ -1,6 +1,6 @@
 export default function Signup() {
   return (
-    <section style={{border: '1px solid black'}}>
+    <section className="signup" style={{border: '1px solid black'}}>
       <h2>Join our next flight!</h2>
       <div>
         <div>

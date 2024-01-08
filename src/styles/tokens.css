@@ -1,0 +1,13 @@
+:root {
+
+  /* Primitive | Font */
+
+  --fontPrimary: 'Noto Sans';
+  --fontScript: 'Nanum Pen Script';
+  --fontHeading: McLaren;
+
+  /* Semantic | Font */
+  --primary-font-family: var(--fontPrimary), sans-serif;
+  --heading-font-family: var(--fontHeading), serif;
+  --secondary-font-family: var(--fontScript), cursive;
+}

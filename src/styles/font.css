@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'McLaren';
-  src: url('./fonts/McLaren.ttf') format('truetype');
+  src: url('./font/mclaren.woff2') format('woff2'),
+       url('./font/mclaren.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
@@ -8,7 +9,8 @@
 
 @font-face {
   font-family: 'Nanum Pen Script';
-  src: url('./fonts/NanumPenScript.ttf') format('truetype');
+  src: url('./font/nanumpenscript.woff2') format('woff2'),
+       url('./font/nanumpenscript.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: fallback;
@@ -16,7 +18,8 @@
 
 @font-face {
   font-family: 'Noto Sans';
-  src: url('./fonts/NotoSans.ttf') format('truetype');
+  src: url('./font/notosans.woff2') format('woff2'),
+       url('./font/notosans.woff') format('woff');
   font-weight: 300;
   font-style: italic;
   font-display: fallback;

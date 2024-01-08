@@ -1,8 +1,7 @@
 export default function Gallery() {
   return (
-    <section>
-      <h2>Photos of Sydney at night</h2>
-      <p>Look! What a View!</p>
+    <section className="gallery">
+      <h2><span className="visually-hidden">Photos of Sydney at night. </span>Look! What a View!</h2>
       <div style={{display: 'flex'}}>
         <div>
             <img
