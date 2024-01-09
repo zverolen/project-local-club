@@ -4,10 +4,27 @@
 
   --fontPrimary: 'Noto Sans';
   --fontScript: 'Nanum Pen Script';
-  --fontHeading: McLaren;
+  --fontHeading: 'McLaren';
+
+  --mainHeadingFontSize: calc(60 / 16 * 1rem);
+  --textFontSizePrimary: calc(30 / 16 * 1rem);
+  --textFontSizeSecondary: calc(40 / 16 * 1rem);
+  --subheadingFontSizePrimary: var(--textFontSizePrimary);
+  --descriptionFontSizeBig: calc(42 / 16 * 1rem);
+  --formFontSizePrimary: calc(20 / 16 * 1rem);
+  --buttonFontSizePrimary: calc(14 / 16 * 1rem);
+  --ctaFontSize: calc(50 / 16 * 1rem);
+  --footerFontSize: var(--formFontSizePrimary);
+
+  --fontWeightRegular: 400;
+  --fontWeightLight: 300;
+
+  --caps: uppercase;
 
   /* Semantic | Font */
+
   --primary-font-family: var(--fontPrimary), sans-serif;
   --heading-font-family: var(--fontHeading), serif;
   --secondary-font-family: var(--fontScript), cursive;
+
 }

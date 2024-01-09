@@ -1,3 +1,70 @@
+body {
+  font-family: var(--primary-font-family);
+  font-size: var(--textFontSizePrimary);
+}
+
+.gradient {
+  background: var(--background-primary-fallback);
+  background: var(--background-primary);
+  background: var(--background-primary-moz);
+  background: var(--background-primary-webkit);
+}
+
 h1, .signup h2, .gallery h2, footer h2 {
-  font-family: 'Noto Sans';
+  font-family: var(--heading-font-family);
+  font-weight: var(--fontWeightRegular);
+  text-transform: var(--caps);
+}
+
+h2 {
+  font-size: var(--subheadingFontSizePrimary);
+}
+
+.members > p, .signup h2+div > div:nth-child(1), .signup h2+div > div:nth-child(1) h3, footer a:only-child {
+  font-family: var(--secondary-font-family);
+  font-size: var(--textFontSizeSecondary);
+  font-weight: var(--fontWeightRegular);
+}
+
+h1 {
+  font-size: var(--mainHeadingFontSize);
+}
+
+.description h2 + p {
+  font-size: var(--descriptionFontSizeBig);
+}
+
+.signup {
+  background-color: var(--background-secondary);
+  color: var(--text-color-secondary)
+}
+
+.signup form {
+  font-size: var(--formFontSizePrimary);
+}
+
+.signup button {
+  font-size: var(--buttonFontSizePrimary);
+  text-transform: var(--caps);
+}
+
+footer {
+  color: var(--text-color-secondary);
+}
+
+footer, footer h2 {
+  font-size: var(--footerFontSize);
+}
+
+footer > div:nth-child(1) {
+  background-color: var(--background-dark);
+}
+
+footer > div:nth-child(2) {
+  background-color: var(--background-secondary);
+}
+
+footer a:only-child {
+  font-size: var(--ctaFontSize);
+  text-transform: var(--caps);
 }

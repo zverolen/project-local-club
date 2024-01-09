@@ -1,0 +1,24 @@
+:root {
+  --black: #1F231A;
+  --orange: hsla(24,93%,73%,1);
+  --yellow: hsla(54,62%,85%,1);
+  --blueLight: hsla(196,80%,79%,1);
+  --blueDark: hsla(213,77%,14%,1);
+  --tilt: #007A78;
+  --greenLight: #F2FFE3;
+
+  --text-color-primary: var(--black);
+  --text-color-secondary: var(--greenLight);
+  --background-primary: linear-gradient(270deg, var(--orange) 0%,var(--yellow) 25%, var(--blueLight) 50%, var(--blueDark) 100%);
+  --background-primary-moz: -moz-linear-gradient(270deg, var(--orange) 0%,var(--yellow) 25%, var(--blueLight) 50%, var(--blueDark) 100%);
+  --background-primary-webkit: -webkit-linear-gradient(270deg, var(--orange) 0%, var(--yellow) 25%, var(--blueLight) 50%, var(--blueDark) 100%);
+  --background-primary-fallback: var(--yellow);
+  --background-secondary: var(--tilt);
+  --background-dark: var(--blueDark);
+}
+
+/* background: hsla(54,62%,85%,1);
+    background: linear-gradient(270deg,hsla(24,93%,73%,1) 0%,hsla(54,62%,85%,1) 25%,hsla(196,80%,79%,1) 50%,hsla(213,77%,14%,1) 100%);
+    background: -moz-linear-gradient(270deg,hsla(24,93%,73%,1) 0%,hsla(54,62%,85%,1) 25%,hsla(196,80%,79%,1) 50%,hsla(213,77%,14%,1) 100%);
+    background: -webkit-linear-gradient(270deg,hsla(24,93%,73%,1) 0%,hsla(54,62%,85%,1) 25%,hsla(196,80%,79%,1) 50%,hsla(213,77%,14%,1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F0EBC0",endColorstr="#9DDDF4",GradientType=1) */

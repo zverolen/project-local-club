@@ -1,4 +1,4 @@
-import Bats from './components/bats/Bats'
+import Members from './components/members/Members'
 import Description from './components/description/Description'
 import Footer from './components/footer/Footer'
 import Gallery from './components/gallery/Gallery'
@@ -9,13 +9,15 @@ function App() {
 
   return (
     <>
-    <Header />
-    <main>
-      <Bats />
-      <Description />
-      <Signup />
-      <Gallery />
-    </main>
+    <div className='gradient'>
+      <Header />
+      <main>
+        <Members />
+        <Description />
+        <Signup />
+        <Gallery />
+      </main>
+    </div>
     <Footer />
     </>
   )

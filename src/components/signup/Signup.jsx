@@ -9,15 +9,15 @@ export default function Signup() {
           <p>Harbour National Park, at the Horny Lighthouse</p>
         </div>
         <div>
-          <h3 id="js-signupForm">Sign up form</h3>
+          
+          <form label="Sign up form" action="">
           <p>Please, enter the information about you to take part in our next flight</p>
-          <form action="">
             <div>
-              <label htmlFor="singup-name">How We Call You</label>
+              <label htmlFor="singup-name">How we can call you</label>
               <input id="singup-name" name="name" type="text" />
             </div>
             <div>
-              <label htmlFor="singup-email">Your Email</label>
+              <label htmlFor="singup-email">Your email</label>
               <input id="singup-email" name="email" type="email" />
             </div>
             <p>We need to know the participants so no one is left behind.</p>
