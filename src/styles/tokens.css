@@ -19,12 +19,48 @@
   --fontWeightRegular: 400;
   --fontWeightLight: 300;
 
+  --lineHeightSmall: 1;
+  --lineHeightDescription: 1.8;
+
   --caps: uppercase;
+
+  /* Primitive | Size */
+
+  --siteWidth: 95%;
+  --siteWIdthMax: calc(1352 / 16 * 1rem);
+  
+  --headerWidth: calc(800 / 16 * 1rem);
+  --headerPadding: calc(100 / 16 * 1rem);
+  --headerMargin: calc(30 / 16 * 1rem);
+  --logoWidth: calc(146 / 16 * 1rem);
+  --mainHeadingMargin: calc(25 / 16 * 1rem);
+
+  --membersMargin: calc(20 / 16 * 1rem);
+  --membersWidthMax: calc(1444 / 16 * 1rem);
+  --memberPhotoMargin: calc(16 / 16 * 1rem);
+
+  --descriptionPaddingTop: calc(80 / 16 * 1rem);
+  --descriptionPaddingBottom: calc(100 / 16 * 1rem);
+  --descriptionMarginInside: var(--descriptionPaddingTop);
+
+  --descriptionTextWidth: 21em;
+
+  --signupPaddingTop: calc(60 / 16 * 1rem);
+  --signupHeight: calc(420 / 16 * 1rem);
+  --signupHeadingMargin: var(--signupPaddingTop);
+  --signupDetailsWidth: 40%;
+  --signupDetailsMargin: calc(35 / 16 * 1rem);
+
+  /* Primitive | Layout */
+  --centeringMargin: auto;
 
   /* Semantic | Font */
 
   --primary-font-family: var(--fontPrimary), sans-serif;
   --heading-font-family: var(--fontHeading), serif;
   --secondary-font-family: var(--fontScript), cursive;
+
+  /* Semantic | Layout */
+  
 
 }

@@ -1,6 +1,6 @@
 export default function Description() {
   return (
-    <section className="description" style={{border: '1px solid black'}}>
+    <section className="description">
       <h2>What is Night Flight?</h2>
       <p>Night Flight is a community of Sydney vampires who are sick of staying all creepy and lonely.</p>
       <div>

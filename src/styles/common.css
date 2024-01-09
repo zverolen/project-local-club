@@ -16,8 +16,19 @@ h1, .signup h2, .gallery h2, footer h2 {
   text-transform: var(--caps);
 }
 
+h1 {
+  margin-block-start: var(--mainHeadingMargin);
+
+  font-size: var(--mainHeadingFontSize);
+  line-height: var(--lineHeightSmall);
+}
+
 h2 {
   font-size: var(--subheadingFontSizePrimary);
+}
+
+.members h2, .description h2 {
+  font-weight: var(--fontWeightLight);
 }
 
 .members > p, .signup h2+div > div:nth-child(1), .signup h2+div > div:nth-child(1) h3, footer a:only-child {
@@ -26,17 +37,88 @@ h2 {
   font-weight: var(--fontWeightRegular);
 }
 
-h1 {
-  font-size: var(--mainHeadingFontSize);
+.description, .signup > div, .gallery, footer > div:nth-child(2) > div {
+  width: var(--siteWidth);
+  max-width: var(--siteWIdthMax);
+  margin-inline: var(--centeringMargin);
+}
+
+header {
+  padding-block: var(--headerPadding);
+  
+  text-align: center;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
+
+  width: var(--headerWidth);
+  margin-inline: var(--centeringMargin);
+  margin-block-end: var(--headerMargin);
+}
+
+header img {
+  width: var(--logoWidth);
+}
+
+.members {
+  text-align: center;
+}
+
+.members > div {
+  display: flex;
+
+  margin-block: var(--membersMargin);
+  margin-inline: var(--centeringMargin);
+}
+
+.members > div > div {
+  margin-inline-end: var(--memberPhotoMargin);
+}
+.members > div > div:nth-child(1) {
+  margin-inline-start: var(--memberPhotoMargin);
+}
+
+.description {
+  padding-block: var(--descriptionPaddingTop) var(--descriptionPaddingBottom);
+
+  text-align: center;
 }
 
 .description h2 + p {
+  margin-block-end: var(--descriptionMarginInside);
+  margin-block-start: var(--membersMargin);
+
   font-size: var(--descriptionFontSizeBig);
 }
 
+.description > div p {
+  width: var(--descriptionTextWidth);
+  margin-inline: var(--centeringMargin);
+
+  line-height: var(--lineHeightDescription);
+}
+
 .signup {
+  position: relative;
+
+  height: var(--signupHeight);
+  padding-block-start: var(--signupPaddingTop);
+
   background-color: var(--background-secondary);
   color: var(--text-color-secondary)
+}
+
+.signup h2 {
+  margin-inline-end: var(--signupHeadingMargin);
+
+  text-align: center;
+}
+
+.signup > div > div {
+  display: flex;
+  justify-content: center;
 }
 
 .signup form {
