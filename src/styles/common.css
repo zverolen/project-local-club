@@ -159,6 +159,7 @@ header img {
   border: none;
   border-bottom: var(--input-border-bottom);
   
+  color: var(--text-color-secondary);
   background-color: transparent;
 }
 
@@ -260,4 +261,22 @@ footer a:only-child {
 
 footer h2 {
   margin-block-end: var(--footerHeadingMargin);
+}
+
+button:hover, button:focus-visible {
+  background-color: var(--brown);
+  color: var(--text-color-secondary);
+}
+
+input:focus-visible {
+  outline-color: var(--text-color-secondary);
+  outline-offset: var(--inputOutlineOffset);
+}
+
+footer a:hover, footer a:focus-visible {
+  color: var(--blueDark);
+}
+
+footer a:only-child:hover, footer a:only-child:focus-visible {
+  color: var(--blueLight);
 }
