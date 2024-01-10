@@ -1,8 +1,10 @@
-export default function Footer() {
+import PropTypes from 'prop-types'
+
+export default function Footer({ isLinkHidden }) {
   return (
     <footer>
       <div>
-        <a id="js-ctaLink" href="#js-signupForm">Join Night Flight!</a>
+        <a id="js-ctaLink" href="#js-signupForm" hidden={isLinkHidden}>Join Night Flight!</a>
       </div>
       <div>
         <div>
@@ -34,4 +36,8 @@ export default function Footer() {
       </div>
     </footer>
   )
+}
+
+Footer.propTypes = {
+  isLinkHidden: PropTypes.bool
 }

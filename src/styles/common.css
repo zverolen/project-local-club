@@ -191,6 +191,10 @@ header img {
   font-size: var(--signupNoteFontSize);
 }
 
+.signup [aria-live] p {
+  font-size: var(--signupNoteFontSize);
+}
+
 .gallery {
   padding-block: var(--galleryPaddingTop) var(--galleryPaddingBottom);
 

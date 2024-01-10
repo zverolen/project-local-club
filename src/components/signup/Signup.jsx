@@ -1,6 +1,8 @@
-export default function Signup() {
+import PropTypes from 'prop-types'
+
+export default function Signup({ handleDemo, isClicked }) {
   return (
-    <section className="signup">
+    <section className="signup" >
       <div>
         <h2>Join our next flight!</h2>
         <div>
@@ -11,7 +13,7 @@ export default function Signup() {
           </div>
           <div>
             
-            <form label="Sign up form" action="">
+            <form label="Sign up form" action="" hidden={ isClicked }>
             <p className="visually-hidden">Please, enter the information about you to take part in our next flight</p>
               <div>
                 <label htmlFor="singup-name">How we can call you</label>
@@ -22,11 +24,12 @@ export default function Signup() {
                 <input id="singup-email" name="email" type="email" />
               </div>
               <p>We need to know the participants so no one is left behind.</p>
-              <button type="submit" id="js-signupButton">Count me in</button>
+              <button type="button" id="js-signupButton" onClick={ handleDemo }>Count me in</button>
             </form>
-            <div id="js-successMessage"  aria-live="polite">
-              <div hidden>
+            <div aria-live="polite">
+              <div hidden={ !isClicked }>
                 <p>DEVELOPER NOTE: THIS HIDES THE CTA LINK IN THE FOOTER.</p>
+                <p>You are added to the next Night Flight event! We sent you an email with all details.</p>
               </div>
             </div>
           </div>
@@ -34,4 +37,9 @@ export default function Signup() {
       </div>
     </section>
   )
+}
+
+Signup.propTypes = {
+  handleDemo: PropTypes.func,
+  isClicked: PropTypes.bool
 }
