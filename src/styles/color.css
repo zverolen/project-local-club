@@ -6,6 +6,7 @@
   --blueDark: hsla(213,77%,14%,1);
   --tilt: #007A78;
   --greenLight: #F2FFE3;
+  --shadow: #08213f2f;
 
   --text-color-primary: var(--black);
   --text-color-secondary: var(--greenLight);
@@ -15,6 +16,9 @@
   --background-primary-fallback: var(--yellow);
   --background-secondary: var(--tilt);
   --background-dark: var(--blueDark);
+
+  --button-text-color: var(--background-secondary);
+  --button-background-color: var(--text-color-secondary);
 }
 
 /* background: hsla(54,62%,85%,1);

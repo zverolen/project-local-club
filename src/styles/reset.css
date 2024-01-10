@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+button {
+  font-family: inherit;
+}
+
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
@@ -35,11 +39,6 @@ h2, h3, h4 {
 img {
   max-width: 100%;
   display: block;
-}
-
-input, button,
-textarea, select {
-  font: inherit;
 }
 
 :target {

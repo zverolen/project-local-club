@@ -2,7 +2,7 @@ export default function Gallery() {
   return (
     <section className="gallery">
       <h2><span className="visually-hidden">Photos of Sydney at night. </span>Look! What a View!</h2>
-      <div style={{display: 'flex'}}>
+      <div>
         <div>
             <img
               sizes="

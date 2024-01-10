@@ -9,18 +9,22 @@
   --mainHeadingFontSize: calc(60 / 16 * 1rem);
   --textFontSizePrimary: calc(30 / 16 * 1rem);
   --textFontSizeSecondary: calc(40 / 16 * 1rem);
-  --subheadingFontSizePrimary: var(--textFontSizePrimary);
+  --subheadingFontSizePrimary: calc(32 / 16 * 1rem);
   --descriptionFontSizeBig: calc(42 / 16 * 1rem);
+  --dateFontSize: calc(48 / 16 * 1rem);
   --formFontSizePrimary: calc(20 / 16 * 1rem);
   --buttonFontSizePrimary: calc(14 / 16 * 1rem);
+  --signupNoteFontSize: 1rem;
   --ctaFontSize: calc(50 / 16 * 1rem);
   --footerFontSize: var(--formFontSizePrimary);
 
   --fontWeightRegular: 400;
   --fontWeightLight: 300;
 
+  --lineHeightScript: 0.8;
   --lineHeightSmall: 1;
   --lineHeightDescription: 1.8;
+  --lineHeightBig: 1.6;
 
   --caps: uppercase;
 
@@ -28,6 +32,7 @@
 
   --siteWidth: 95%;
   --siteWIdthMax: calc(1352 / 16 * 1rem);
+  --fullWidth: 100%;
   
   --headerWidth: calc(800 / 16 * 1rem);
   --headerPadding: calc(100 / 16 * 1rem);
@@ -50,15 +55,62 @@
   --signupHeadingMargin: var(--signupPaddingTop);
   --signupDetailsWidth: 40%;
   --signupDetailsMargin: calc(35 / 16 * 1rem);
+  --signupFormWidth: 54%;
+  --signupFormMargin: var(--signupDetailsMargin);
+  --singupNoteMargin: calc(100 / 16 * 1rem);
+
+  --inputGroupMargin: calc(10 / 16 * 1rem);
+  --labelMargin: var(--inputGroupMargin);
+
+  --buttonPaddingBlock: calc(10 / 16 * 1rem);
+  --buttonPaddingInline: calc(50 / 16 * 1rem);
+  --buttonMargin: calc(2 / 16 * 1rem);
+
+  --galleryPaddingTop: calc(60 / 16 * 1rem);
+  --galleryPaddingBottom: calc(100 / 16 * 1rem);
+  --galleryGrid: repeat(5,1fr);
+  --galleryGapRow: 2.5%;
+  --galleryGapColum: 1.5%;
+  --galleryMargin: calc(60 / 16 * 1rem);
+
+  --ctaPaddingBottom: calc(100 / 16 * 1rem);
+
+  --footerPaddingTop: calc(30 / 16 * 1rem);
+  --footerPaddingBottom: calc(40 / 16 * 1rem);
+
+  --footerHeadingMargin: 1rem;
+
+  --deviderMargin: calc(2 / 16 * 1rem);
 
   /* Primitive | Layout */
   --centeringMargin: auto;
+
+  --inputFlexGrow: 1;
+
+  /* Primitive | Position */
+  --buttonBottom: calc(100 / 16 * 1rem);
+
+  /* Primitive | Outlining */
+
+  --inputBorderWidth: calc(2 / 16 * 1rem);
+  --buttonBorderRadius: calc(20 / 16 * 1rem);
+
+  /* Primitive | Transition */
+
+  --transitionSpeed: 0.5s;
+
+  /* Primitive | Shadow */
+
+  --galleryShadow: 0.25rem 0.25rem 0.25rem var(--shadow);
 
   /* Semantic | Font */
 
   --primary-font-family: var(--fontPrimary), sans-serif;
   --heading-font-family: var(--fontHeading), serif;
   --secondary-font-family: var(--fontScript), cursive;
+
+  /* Semantic | Outlining */
+  --input-border-bottom: var(--inputBorderWidth) solid var(--text-color-secondary);
 
   /* Semantic | Layout */
   
