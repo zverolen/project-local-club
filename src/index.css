@@ -1,11 +1,11 @@
-@layer reset, tokens, general.common, general.specific, specific, theme.light, theme.dark, states;
+@layer reset, tokens, general.common, general.breakpoints, specific, theme.light, theme.dark, states;
 
 @import url("./styles/reset.css") layer(reset);
 @import url("./styles/font.css");
 @import url("./styles/tokens.css") layer(tokens);
 @import url("./styles/wcag-reset.css") layer(tokens);
 @import url("./styles/common.css") layer(general.common);
-@import url("./styles/sections.css") layer(general.section);
+@import url("./styles/breakpoints.css") layer(general.breakpoints);
 @import url("./styles/color.css") layer(theme);
 
 @layer specific {

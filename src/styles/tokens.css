@@ -35,14 +35,18 @@
   --fullWidth: 100%;
   
   --headerWidth: calc(800 / 16 * 1rem);
-  --headerPadding: calc(100 / 16 * 1rem);
+  --headerPaddingTop: calc(100 / 16 * 1rem);
+  --headerPaddingBottom: calc(100 / 16 * 1rem);
   --headerMargin: calc(30 / 16 * 1rem);
   --logoWidth: calc(146 / 16 * 1rem);
   --mainHeadingMargin: calc(25 / 16 * 1rem);
 
-  --membersMargin: calc(20 / 16 * 1rem);
+  --membersMarginTop: calc(20 / 16 * 1rem);
+  --membersMarginBottom: var(--membersMarginTop);
   --membersWidthMax: calc(1444 / 16 * 1rem);
   --memberPhotoMargin: calc(16 / 16 * 1rem);
+  --memberPhotoWidth600: 23%;
+  --memberPhotoMarginBottom600: calc(4 / 16 * 1rem);
 
   --descriptionPaddingTop: calc(80 / 16 * 1rem);
   --descriptionPaddingBottom: calc(100 / 16 * 1rem);
