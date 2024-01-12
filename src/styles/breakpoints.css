@@ -110,8 +110,8 @@
   }
 
   .signup > div > div > div:nth-child(1) {
-    --lineHeightScript: 0;
-    margin-inline-end: 2.5rem;
+    --signupDetailsMargin: 0;
+    margin-block-end: 2.5rem;
     --dateFontSize: 2.1875rem;
   }
 

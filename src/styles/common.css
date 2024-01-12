@@ -123,7 +123,7 @@ header img {
 }
 
 .signup > div > div > div:nth-child(1) {
-  width: var(--signupDetailsWidth);
+  flex-basis: var(--signupDetailsWidth);
   margin-inline-end: var(--signupDetailsMargin);
 
   font-size: var(--dateFontSize);
@@ -131,7 +131,7 @@ header img {
 }
 
 .signup > div > div > div:nth-child(2) {
-  width: var(--signupFormWidth);
+  flex-basis: var(--signupFormWidth);
   margin-inline-start: var(--signupFormMargin);
 }
 
