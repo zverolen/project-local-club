@@ -50,6 +50,10 @@
   .signup > div > div > div:nth-child(1) {
     --dateFontSize: 2.5rem;
   }
+
+  .signup button {
+    --buttonBottom: 6.875rem;
+  }
 }
 
 @media only screen and (max-width: calc(1070 / 16 * 1rem)) {
@@ -117,6 +121,13 @@
 
   .signup > div > div > div:nth-child(2) {
     margin-left: 0;
+  }
+
+  .signup button {
+    --buttonBottom: 6.125rem;
+
+    --buttonPaddingBlock: 0.625rem;
+    --buttonPaddingInline: 2.1875rem;
   }
 }
 
@@ -230,6 +241,8 @@
     --galleryPaddingBottom: 5rem;
   }
 
+  /* Sing up */
+
   .signup {
     --signupHeight: 29.625rem;
     --signupPaddingTop: 2.75rem;
@@ -242,6 +255,16 @@
 
   .signup > div > div > div:nth-child(1) {
     margin-bottom: 1.75rem;
+  }
+
+  .signup form > div {
+    --inputGroupMargin: 0.25rem;
+  }
+}
+
+@media only screen and (max-width: calc(732 / 16 * 1rem)) {
+  .signup button {
+    --buttonBottom: 5rem;
   }
 }
 
@@ -379,6 +402,23 @@
     --dateFontSize: 2rem;
   }
 
+  .signup form {
+    --formFontSizePrimary: 1.125rem;
+  }
+
+  .signup label {
+    --labelMargin: 0.25rem;
+  }
+
+  .signup form p:nth-of-type(2) {
+    --signupNoteFontSize: 1.125rem;
+  }
+
+  .signup [aria-live] p {
+    margin-inline-end: 0.25rem;
+    --signupNoteFontSize: 1.125rem;
+  }
+
   /* Gallery */
 
   .gallery {
@@ -474,6 +514,43 @@
     margin-bottom: 1.875rem;
     --dateFontSize: 1.75rem;
   }
+
+  .signup form {
+    --formFontSizePrimary: 1rem;
+  }
+
+  .signup form > div {
+    flex-direction: column;
+    align-items: stretch;
+
+    --inputGroupMargin: 0;
+  }
+
+  .signup form > div:nth-child(1) {
+    --inputGroupMargin: 1.25rem;
+  }
+
+  .signup label {
+    --labelMargin: 0;
+
+    margin-block-end: 0.25rem;
+  }
+
+  .signup form p:nth-of-type(2) {
+    --singupNoteMargin: 5.3125rem;
+    --signupNoteFontSize: 1.25rem;
+  }
+
+  .signup [aria-live] p {
+    --signupNoteFontSize: 1.25rem;
+  }
+
+  .signup button {
+    --buttonPaddingBlock: 0.4375rem;
+    --buttonPaddingInline: 1.5rem;
+
+    --buttonFontSizePrimary: 0.8125rem;
+  }
 }
 
 @media only screen and (max-width: calc(440 / 16 * 1rem)) {
@@ -518,6 +595,10 @@
     --signupHeadingMargin: 1.375rem;
   }
 
+  .signup button {
+    --buttonBottom: 5.625rem;
+  }
+
   /* Gallery */
 
   .gallery h2 {
@@ -542,6 +623,14 @@
 @media only screen and (max-width: calc(415 / 16 * 1rem)) {
   .signup {
     --signupHeight: 23.75rem;
+  }
+
+  .signup form p:nth-of-type(2) {
+    --signupNoteFontSize: 1rem;
+  }
+
+  .signup [aria-live] p {
+    --signupNoteFontSize: 1rem;
   }
 }
 

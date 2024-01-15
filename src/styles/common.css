@@ -137,6 +137,8 @@ header img {
 
 .signup form {
   font-size: var(--formFontSizePrimary);
+
+  border: 0.0625rem solid transparent;
 }
 
 .signup form > div {
@@ -156,6 +158,9 @@ header img {
   flex-grow: var(--inputFlexGrow);
 
   display: inline-block;
+
+  font-size: inherit;
+  font-family: inherit;
 
   border: none;
   border-bottom: var(--input-border-bottom);
