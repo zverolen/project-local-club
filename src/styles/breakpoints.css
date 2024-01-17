@@ -615,7 +615,6 @@
 
   .signup form p:nth-of-type(2) {
     --singupNoteMargin: calc(70 / 16 * 1rem);
-    /* --signupNoteFontSize: 1.25rem; */
   }
 
   .signup [aria-live] p {
