@@ -2,6 +2,7 @@ body {
   font-family: var(--primary-font-family);
   font-size: var(--textFontSizePrimary);
   letter-spacing: var(--bigger-letter-spacing);
+  word-spacing: var(--bigger-word-gap);
 }
 
 .gradient {

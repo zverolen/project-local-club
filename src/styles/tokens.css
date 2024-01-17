@@ -52,7 +52,8 @@
   --descriptionPaddingBottom: calc(100 / 16 * 1rem);
   --descriptionMarginInside: var(--descriptionPaddingTop);
 
-  --descriptionTextWidth: 21em;
+  --descriptionTextWidth: 22em;
+  /* --descriptionTextWidth: 21em; */
 
   --signupPaddingTop: calc(60 / 16 * 1rem);
   --signupHeight: calc(420 / 16 * 1rem);
