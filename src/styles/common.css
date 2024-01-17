@@ -1,6 +1,7 @@
 body {
   font-family: var(--primary-font-family);
   font-size: var(--textFontSizePrimary);
+  letter-spacing: var(--bigger-letter-spacing);
 }
 
 .gradient {
@@ -69,6 +70,7 @@ header img {
 
 .members > div {
   display: flex;
+  justify-content: space-around;
 
   margin-block: var(--membersMarginTop) var(--membersMarginBottom);
   margin-inline: var(--centeringMargin);

@@ -44,3 +44,9 @@ img {
 :target {
   scroll-margin-block: 5ex;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

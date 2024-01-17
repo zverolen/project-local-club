@@ -4,7 +4,7 @@ export default function Signup({ handleDemo, isClicked }) {
   return (
     <section className="signup" >
       <div>
-        <h2>Join our next flight!</h2>
+        <h2 id="signup">Join our next flight!</h2>
         <div>
           <div>
             <h3 className="visually-hidden">Date, Time and Place</h3>

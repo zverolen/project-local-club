@@ -4,7 +4,7 @@ export default function Footer({ isLinkHidden }) {
   return (
     <footer>
       <div>
-        <a id="js-ctaLink" href="#js-signupForm" hidden={isLinkHidden}>Join Night Flight!</a>
+        <a id="js-ctaLink" href="#signup" hidden={isLinkHidden}>Join Night Flight!</a>
       </div>
       <div>
         <div>
