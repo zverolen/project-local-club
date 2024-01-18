@@ -479,7 +479,7 @@
   }
 
   header > div {
-    --headerWidth: calc(290 / 16 * 1rem);
+    --headerWidth: calc(310 / 16 * 1rem);
     --headerMargin: calc(35 / 16 * 1rem);
   }
 
@@ -510,7 +510,7 @@
     flex-direction: column;
     align-items: stretch;
 
-    --inputGroupMargin: 0;
+    --inputGroupMargin: calc(2 / 16 * 1rem);
   }
 
   .signup form > div:nth-child(1) {
