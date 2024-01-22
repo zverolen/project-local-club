@@ -23,8 +23,9 @@ export default function Signup({ handleDemo, isClicked }) {
                 <label htmlFor="singup-email">Your email</label>
                 <input id="singup-email" name="email" autoComplete="email" type="email" />
               </div>
-              <p>We need to know the participants so no one is left behind.</p>
+              
               <button type="button" id="js-signupButton" onClick={ handleDemo }>Count me in</button>
+              <p>We need to know the participants so no one is left behind.</p>
             </form>
             <div aria-live="polite">
               <div hidden={ !isClicked }>

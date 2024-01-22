@@ -24,7 +24,7 @@ This project is a solution to a task at the Codecademy's Courses: to create a re
 - [x] 1.2.9 Audio-only (Prerecorded) (AAA) (not present)
 
 - [x] 1.3.1 Info and Relationships (A)
-- [ ] 1.3.2 Meaningful Sequence (A)
+- [x] 1.3.2 Meaningful Sequence (A)
 - [x] 1.3.3 Sensory Characteristics (A)
 - [x] 1.3.4 Orientation (AA)
 - [x] 1.3.5 Identify Input Purpose (AA)
