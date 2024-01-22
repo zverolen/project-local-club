@@ -51,6 +51,7 @@
   --descriptionPaddingTop: calc(80 / 16 * 1rem);
   --descriptionPaddingBottom: calc(100 / 16 * 1rem);
   --descriptionMarginInside: var(--descriptionPaddingTop);
+  --descriptionHeadingMargin: calc(10 / 16 * 1rem);
 
   --descriptionTextWidth: 22em;
   /* --descriptionTextWidth: 21em; */
@@ -100,6 +101,7 @@
   --inputBorderWidth: calc(2 / 16 * 1rem);
   --buttonBorderRadius: calc(20 / 16 * 1rem);
   --inputOutlineOffset: calc(6 / 16 * 1rem);
+  --formBorderWidth: calc(1 / 16 * 1rem);
 
   /* Primitive | Transition */
 

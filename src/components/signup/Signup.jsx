@@ -17,11 +17,11 @@ export default function Signup({ handleDemo, isClicked }) {
             <p className="visually-hidden">Please, enter the information about you to take part in our next flight</p>
               <div>
                 <label htmlFor="singup-name">How we can call you</label>
-                <input id="singup-name" name="name" type="text" />
+                <input id="singup-name" name="name" autoComplete="username" type="text" />
               </div>
               <div>
                 <label htmlFor="singup-email">Your email</label>
-                <input id="singup-email" name="email" type="email" />
+                <input id="singup-email" name="email" autoComplete="email" type="email" />
               </div>
               <p>We need to know the participants so no one is left behind.</p>
               <button type="button" id="js-signupButton" onClick={ handleDemo }>Count me in</button>

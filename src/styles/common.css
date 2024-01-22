@@ -91,11 +91,18 @@ header img {
   text-align: center;
 }
 
+.description h2 {
+  margin-block-end: var(--descriptionHeadingMargin);
+  
+  line-height: var(--bigger-line-height);
+}
+
 .description h2 + p {
   margin-block-end: var(--descriptionMarginInside);
   margin-block-start: var(--membersMargin);
 
   font-size: var(--descriptionFontSizeBig);
+  line-height: var(--bigger-line-height);
 }
 
 .description > div p {
@@ -142,7 +149,7 @@ header img {
 .signup form {
   font-size: var(--formFontSizePrimary);
 
-  border: 0.0625rem solid transparent;
+  border: var(--formBorderWidth) solid transparent;
 }
 
 .signup form > div {
