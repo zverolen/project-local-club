@@ -175,6 +175,7 @@ header img {
 
   border: none;
   border-bottom: var(--input-border-bottom);
+  border-radius: 0;
   
   color: var(--text-color-secondary);
   background-color: transparent;
