@@ -605,10 +605,7 @@
 }
 
 @media only screen and (max-width: calc(415 / 16 * 1rem)) {
-  /* .signup {
-    --signupHeight: 23.75rem;
-  } */
-
+ 
   .signup {
     --signupHeight: calc(460 / 16 * 1rem); 
   }

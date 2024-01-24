@@ -9,9 +9,7 @@
 @import url("./styles/color.css") layer(theme);
 
 @layer specific {
-  .site-frame {
-    /* display: block; */
-    
+  .site-frame {    
     margin-inline: var(--centering-margin);
     width: var(--site-width);
   }
@@ -27,32 +25,3 @@
     width: 1px;
   }
 }
-
-/* @layer states {
-  header a:hover svg, header a:focus-visible svg {
-    --fill-color: var(--accent-color)
-  }
-
-  .project a:hover, .project a:focus-visible {
-    --text-color: var(--site-background-color);
-    --background-color: var(--text-link-color);
-  }
-
-  button:hover, button:focus-visible {
-    --text-color: var(--site-background-color);
-    --background-color: var(--accent-color);
-    --border-color: var(--accent-color);
-
-    outline-offset: var(--button-outline-offset);
-  }
-
-  footer a:hover path, footer a:focus-visible path {
-    --fill-color: var(--site-background-color);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    footer a:hover path, footer a:focus-visible path {
-      --fill-color: var(--site-text-color);
-    }
-  }
-} */

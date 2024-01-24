@@ -11,12 +11,10 @@
   src: url('../font/nanumpenscript.woff2') format('woff2'),
        url('../font/nanumpenscript.woff') format('woff');
   font-weight: normal;
-  /* font-display: fallback; */
 }
 
 @font-face {
   font-family: 'Noto Sans';
   src: url('../font/NotoSans-Light.ttf') format('truetype');
   font-weight: 300;
-  /* font-display: fallback; */
 }

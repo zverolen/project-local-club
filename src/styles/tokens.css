@@ -54,7 +54,6 @@
   --descriptionHeadingMargin: calc(10 / 16 * 1rem);
 
   --descriptionTextWidth: 22em;
-  /* --descriptionTextWidth: 21em; */
 
   --signupPaddingTop: calc(60 / 16 * 1rem);
   --signupHeight: calc(420 / 16 * 1rem);
@@ -89,11 +88,13 @@
   --deviderMargin: calc(2 / 16 * 1rem);
 
   /* Primitive | Layout */
+
   --centeringMargin: auto;
 
   --inputFlexGrow: 1;
 
   /* Primitive | Position */
+
   --buttonBottom: calc(100 / 16 * 1rem);
 
   /* Primitive | Outlining */
@@ -119,8 +120,4 @@
 
   /* Semantic | Outlining */
   --input-border-bottom: var(--inputBorderWidth) solid var(--text-color-secondary);
-
-  /* Semantic | Layout */
-  
-
 }
