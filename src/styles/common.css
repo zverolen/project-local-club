@@ -237,7 +237,6 @@ header img {
 .gallery img {
   display: block;
   width: var(--fullWidth);
-  height: auto;
 }
 
 footer {

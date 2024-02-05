@@ -6,11 +6,11 @@ export default function Gallery() {
         <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 904px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-1_o6gc5z_c_scale,w_92.jpg 92w,
               ./images/sydney-view-1_o6gc5z_c_scale,w_233.jpg 233w,
@@ -24,11 +24,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-2_vvb5ll_c_scale,w_92.jpg 92w,
               ./images/sydney-view-2_vvb5ll_c_scale,w_225.jpg 225w,
@@ -44,11 +44,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-3_cnf871_c_scale,w_92.jpg 92w,
               ./images/sydney-view-3_cnf871_c_scale,w_263.jpg 263w,
@@ -63,11 +63,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-4_mfmhrf_c_scale,w_92.jpg 92w,
               ./images/sydney-view-4_mfmhrf_c_scale,w_282.jpg 282w,
@@ -81,11 +81,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-5_klmki8_c_scale,w_92.jpg 92w,
               ./images/sydney-view-5_klmki8_c_scale,w_190.jpg 190w,
@@ -101,11 +101,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-6_r4qofy_c_scale,w_92.jpg 92w,
               ./images/sydney-view-6_r4qofy_c_scale,w_295.jpg 295w,
@@ -119,11 +119,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-7_qeuyby_c_scale,w_92.jpg 92w,
               ./images/sydney-view-7_qeuyby_c_scale,w_382.jpg 382w,
@@ -136,11 +136,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-8_wbesos_c_scale,w_92.jpg 92w,
               ./images/sydney-view-8_wbesos_c_scale,w_213.jpg 213w,
@@ -156,11 +156,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-9_s49ljp_c_scale,w_92.jpg 92w,
               ./images/sydney-view-9_s49ljp_c_scale,w_244.jpg 244w,
@@ -175,11 +175,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-10_kj4hx4_c_scale,w_92.jpg 92w,
               ./images/sydney-view-10_kj4hx4_c_scale,w_202.jpg 202w,
@@ -195,11 +195,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-11_jsvqiz_c_scale,w_92.jpg 92w,
               ./images/sydney-view-11_jsvqiz_c_scale,w_307.jpg 307w,
@@ -213,11 +213,11 @@ export default function Gallery() {
           <div>
             <img
               sizes="
-              (max-width: 440px) 29vw, 
-              (max-width: 528px) 22vw,
-              (max-width: 600px) 19vw,
-              (max-width: 1419px) 15vw,
-              254px"
+              (max-width: calc(440 / 16 * 1rem)) 29vw, 
+              (max-width: calc(528 / 16 * 1rem)) 22vw,
+              (max-width: calc(600 / 16 * 1rem)) 19vw,
+              (max-width: calc(904 / 16 * 1rem)) 15vw,
+              15.875rem"
               srcSet="
               ./images/sydney-view-12_x8ho0s_c_scale,w_92.jpg 92w,
               ./images/sydney-view-12_x8ho0s_c_scale,w_248.jpg 248w,
