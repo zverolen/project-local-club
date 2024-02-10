@@ -1,7 +1,7 @@
 # Website of a Vampires Local Club 
 *Student Project on Codecademy (Local Club Website)*
 
-This project is a solution to a task at the Codecademy's Courses: to create a responsive website for a local club of your choice. 
+This project is a solution to a task at the Codecademy's Courses: to create a responsive website for a local club of your choice. This is the first exercise. It still uses breakpoints, and the sizes and spacing is rather eyeballed than intentionally chosen.
 
 ## Сharacteristics
 1. Designed in the browser.

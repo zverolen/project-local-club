@@ -155,8 +155,6 @@ header img {
 .signup form > div {
   display: flex;
   align-items: flex-end;
-
-  margin-block-end: var(--inputGroupMargin);
 }
 
 .signup label {
@@ -182,12 +180,11 @@ header img {
 }
 
 .signup button {
-  position: absolute;
-  bottom: var(--buttonBottom);
-
   display: block;
   padding: var(--buttonPaddingBlock) var(--buttonPaddingInline);
-  margin-inline-start: var(--buttonMargin);
+  margin-inline-start: var(--buttonMarginLeft);
+  margin-block-start: var(--buttonMarginTop);
+  margin-block-end: var(--buttonMarginBottom);
 
   font-size: var(--buttonFontSizePrimary);
   text-transform: var(--caps);
@@ -204,9 +201,7 @@ header img {
   cursor: pointer;
 }
 
-.signup form p:nth-of-type(2) {
-  margin-block-start: var(--singupNoteMargin);
-
+.signup form p {
   font-size: var(--signupNoteFontSize);
 }
 

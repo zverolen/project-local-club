@@ -59,7 +59,7 @@
   --signupHeight: calc(420 / 16 * 1rem);
   --signupHeadingMargin: var(--signupPaddingTop);
   --signupDetailsWidth: 40%;
-  --signupDetailsMargin: calc(35 / 16 * 1rem);
+  --signupDetailsMargin: calc(20 / 16 * 1rem);
   --signupFormWidth: 54%;
   --signupFormMargin: var(--signupDetailsMargin);
   --singupNoteMargin: calc(100 / 16 * 1rem);
@@ -69,7 +69,9 @@
 
   --buttonPaddingBlock: calc(10 / 16 * 1rem);
   --buttonPaddingInline: calc(50 / 16 * 1rem);
-  --buttonMargin: calc(2 / 16 * 1rem);
+  --buttonMarginLeft: calc(2 / 16 * 1rem);
+  --buttonMarginTop: calc(22 / 16 * 1rem);
+  --buttonMarginBottom: calc(40 / 16 * 1rem);
 
   --galleryPaddingTop: calc(60 / 16 * 1rem);
   --galleryPaddingBottom: calc(100 / 16 * 1rem);

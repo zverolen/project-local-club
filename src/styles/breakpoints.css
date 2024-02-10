@@ -49,10 +49,6 @@
   .signup > div > div > div:nth-child(1) {
     --dateFontSize: 2.5rem;
   }
-
-  .signup button {
-    --buttonBottom: 6.875rem;
-  }
 }
 
 @media only screen and (max-width: calc(1070 / 16 * 1rem)) {
@@ -101,7 +97,7 @@
   /* Signup */
 
   .signup {
-    --signupHeight: 31.625rem;
+    --signupHeight: calc(522 / 16 * 1rem);
   }
 
   .signup h2 {
@@ -123,10 +119,9 @@
   }
 
   .signup button {
-    --buttonBottom: 6.125rem;
-
     --buttonPaddingBlock: 0.625rem;
     --buttonPaddingInline: 2.1875rem;
+    --buttonMarginLeft: 0;
   }
 }
 
@@ -175,7 +170,7 @@
     --galleryGapColum: 1%;
     --galleryGapRow: 2%;
   }
-}
+} 
 
 @media only screen and (max-width: calc(770 / 16 * 1rem)) {
 
@@ -229,14 +224,12 @@
 
   .description > div p {
     --descriptionTextWidth: 22.5em;
-
-    /* --textFontSizePrimary: 1.5rem; */
   }
 
   /* Sing up */
 
   .signup {
-    --signupHeight: calc(430 / 16 * 1rem);
+    --signupHeight: calc(466 / 16 * 1rem);
     --signupPaddingTop: 2.75rem;
   }
 
@@ -332,6 +325,12 @@
     margin-bottom: var(--memberPhotoMarginBottom600);
   }
 
+  /* Signup */
+
+  .signup {
+    --signupHeight: calc(440 / 16 * 1rem);
+  }
+
   /* Gallery */
 
   .gallery > div {
@@ -385,10 +384,6 @@
   }
 
   /* Signup */
-
-  .signup {
-    --signupHeight: 27.5rem;
-  }
 
   .signup > div > div > div:nth-child(1) {
     --dateFontSize: 2rem;
@@ -461,11 +456,17 @@
   /* Singup */
 
   .signup {
-    --signupHeight: 27.375rem;
+    --signupHeight: calc(440 / 16 * 1rem);
   }
 
   .signup > div > div > div:nth-child(1) {
     --dateFontSize: 1.875rem;
+  }
+}
+
+@media only screen and (max-width: calc(502 / 16 * 1rem)) {
+  .signup {
+    --signupHeight: calc(460 / 16 * 1rem);
   }
 }
 
@@ -493,12 +494,8 @@
 }
 
 @media only screen and (max-width: calc(456 / 16 * 1rem)) {
-  .signup {
-    --signupHeight: 30rem;
-  }
-
   .signup > div > div > div:nth-child(1) {
-    margin-bottom: 1.875rem;
+    margin-bottom: calc(36 / 16 * 1rem);
     --dateFontSize: 1.75rem;
   }
 
@@ -509,12 +506,10 @@
   .signup form > div {
     flex-direction: column;
     align-items: stretch;
-
-    --inputGroupMargin: calc(2 / 16 * 1rem);
   }
 
-  .signup form > div:nth-child(1) {
-    --inputGroupMargin: 1.25rem;
+  .signup form > div:nth-of-type(1) {
+    --inputGroupMargin: calc(12 / 16 * 1rem);
   }
 
   .signup label {
@@ -528,8 +523,6 @@
   }
 
   .signup button {
-    --buttonBottom: calc(114 / 16 * 1rem);
-
     --buttonPaddingBlock: 0.4375rem;
     --buttonPaddingInline: 1.5rem;
 
@@ -569,18 +562,17 @@
 
   .description > div p {
     --descriptionTextWidth: 18.125em;
-    /* --textFontSizePrimary: 1rem; */
     --lineHeightDescription: 1.2;
   }
 
   /* Sign up */
 
-  .signup h2 {
-    --signupHeadingMargin: 1.375rem;
+  .signup {
+    --signupPaddingTop: 2.25rem;
   }
 
-  .signup button {
-    --buttonBottom: 5.625rem;
+  .signup h2 {
+    --signupHeadingMargin: 1.375rem;
   }
 
   /* Gallery */
@@ -595,38 +587,15 @@
 
     --galleryMargin: 1.75rem;
   }
-
-  /* Signup */
-
-  .signup {
-    --signupHeight: 27.25rem;
-    --signupPaddingTop: 2.25rem;
-  }
 }
 
 @media only screen and (max-width: calc(415 / 16 * 1rem)) {
- 
-  .signup {
-    --signupHeight: calc(460 / 16 * 1rem); 
-  }
-
   .signup form p:nth-of-type(2) {
     --singupNoteMargin: calc(70 / 16 * 1rem);
   }
 
   .signup [aria-live] p {
     --signupNoteFontSize: 1rem;
-  }
-
-  .signup button {
-    --buttonBottom: calc(102 / 16 * 1rem);
-  }
-
-}
-
-@media only screen and (max-width: calc(332 / 16 * 1rem)) {
-  .signup button {
-    --buttonBottom: calc(80 / 16 * 1rem);
   }
 }
 
@@ -647,10 +616,22 @@
   .description > div p {
     --descriptionTextWidth: 100%;
   }
+
+  /* Signup */
+
+  .signup {
+    --signupHeight: calc(500 / 16 * 1rem);
+  }
+}
+
+@media only screen and (max-width: calc(310 / 16 * 1rem)) {
+  .signup {
+    --signupHeight: calc(500 / 16 * 1rem);
+  }
 }
 
 @media only screen and (max-width: calc(296 / 16 * 1rem)) {
   .signup {
-    --signupHeight: calc(486 / 16 * 1rem); 
+    --signupHeight: calc(550 / 16 * 1rem);
   }
 }
