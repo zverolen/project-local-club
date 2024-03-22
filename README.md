@@ -1,5 +1,6 @@
 # Website of a Vampires Local Club 
 [Open in browser](https://zverolen.github.io/night-flight/night-flight)
+
 *Student Project on Codecademy (Local Club Website)*
 
 This project is a solution to a task at the Codecademy's Courses: to create a responsive website for a local club of your choice. This is the first exercise. It still uses breakpoints, and the sizes and spacing is rather eyeballed than intentionally chosen.
