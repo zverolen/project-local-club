@@ -171,8 +171,9 @@ header img {
   font-size: inherit;
   font-family: inherit;
 
-  border: none;
-  border-bottom: var(--input-border-bottom);
+  /* border: none;
+  border-bottom: var(--input-border-bottom); */
+  border: var(--input-border-bottom);
   border-radius: 0;
   
   color: var(--text-color-secondary);

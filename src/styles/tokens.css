@@ -101,7 +101,7 @@
 
   /* Primitive | Outlining */
 
-  --inputBorderWidth: calc(2 / 16 * 1rem);
+  --inputBorderWidth: calc(1 / 16 * 1rem);
   --buttonBorderRadius: calc(20 / 16 * 1rem);
   --inputOutlineOffset: calc(6 / 16 * 1rem);
   --formBorderWidth: calc(1 / 16 * 1rem);
